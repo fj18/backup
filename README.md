@@ -35,25 +35,25 @@
 
 ~~~ini
 [DEFAULT]
-#要备份的文件夹，末尾带'/'
+### 要备份的文件夹，末尾带'/'
 source=D:/test/data/
 
-#备份文件存放的文件夹，末尾带'/'
+### 备份文件存放的文件夹，末尾带'/'
 destination=D:/test/backup/
 
-#备份文件的文件名，最后会被命名为[文件名]_[年]_[月]_[日].7z
+### 备份文件的文件名，最后会被命名为[文件名]_[年]_[月]_[日].7z
 fileName=data
 
 [zip7Exe]
-#7zip 安装路径，如果目录有空格，需要用双引号引起来
+### 7zip 安装路径，如果目录有空格，需要用双引号引起来
 zip7Exe=C:/"Program Files"/7-Zip/7z.exe
 
-[optional]
-##密码
+#[optional]
+### 密码
 #password=123456
 
-#忽略文件或者文件夹的列表
-ignore=D:/abc/code/ignore.txt
+### 忽略文件或者文件夹的列表
+#ignore=D:/abc/code/ignore.txt
 
 ~~~
 
